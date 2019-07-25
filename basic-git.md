@@ -1,14 +1,14 @@
 Theme: Business Class
 autoscale: true
-text: Google Sans, #006cab
-text-strong: Google Sans Bold, #006dae
+text: Roboto, #006cab
+text-strong: Roboto Black, #006dae
 text-emphasis: Google Sans Italic
-header: Google Sans, #006CAB
-header-strong: Roboto Strong,#005DAE
-header-emphasis: Reklame Script, #53585F  
+header: Merriweather Light, #006CAB
+header-strong: Merriweather ,#005DAE
+header-emphasis: Merriweather Black, #53585F  
 code: Fira Code Medium, #EE783F, #8B3D90, #2E59A2, #DF393F, #1EA8D9
 background-color: #FFFFFF  
-footer: August 2018 | Copyright Ⓒ Eric Jiang/Monash University 2018 | Adapated from "Gitting Started at Hackathons" tech talk
+footer: Copyright Ⓒ Eric Jiang 2019 | Adapated from "Gitting Started at Hackathons" tech talk
 slidenumbers: false
 ## Introduction to Git and the MonPlan Development Workflow
 
@@ -63,6 +63,16 @@ _But what if there was a way that I good remember how the code look liked throug
 ---
 # Some Terminology
 
+## **Commit** 
+> The git commit command captures a snapshot of the project's currently staged changes
+
+* A reference to some changes to a file (removals or deletitions in files, creation/moving/deletition of files)
+
+![original](assets/background.png)
+
+---
+# Some Terminology
+
 ## **Branches** 
 > A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master
 
@@ -99,15 +109,16 @@ Well, working with teams 👪 may be hard. There are generally two ways you can 
 * Using Branches
 * Using Forks
 
-We use branches at MonPlan!
+- Open Source projects tend to use Forks, while:
+- a lot of places also uses what is known as GitFlow which uses branches!
 
 ![original](assets/background.png)
 
 ---
 
-# Use Branches 🌳 for Versioning Control
+# Use Branches 🌳 for Versioning Control (GitFlow)
 
-1.  Make a branch with the feature name or your own username
+1.  Make a branch with the feature, bug, hotfix you are working on.
 2.  Every time you commit and push up
 3.  Make a Pull Request
 4.  Merge the pull request
@@ -118,7 +129,7 @@ One of the best workflows is known as _GitFlow_
 
 ---
 
-# GitFlow - Used with monPlan Git Workflow
+# GitFlow
 
 ![inline](https://i.imgur.com/c5L8RFE.png)
 
@@ -159,15 +170,6 @@ git branch fix/contact-button
 # we make the new branch the new working branch
 git checkout fix/contact-button
 ```
-
-![original](assets/background.png)
-
----
-
-# The branches we use:
-- `fix`
-- `refactor`
-- `feature`
 
 ![original](assets/background.png)
 
@@ -303,7 +305,9 @@ _Unfortunately we won't go into fixing merge conflicts in this talk_
 
 ### It's probably easier if I show you commands
 
-### Let's Imagine we are merging a feature from `feature/awesome-feature` branch into `develop`
+### Try and Fork and some branches instead 
+
+### Go to [https://github.com/lorderikir/git-example](https://github.com/lorderikir/git-example) for some playing around
 
 ![original](assets/background.png)
 
