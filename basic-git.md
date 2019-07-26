@@ -10,9 +10,20 @@ code: Fira Code Medium, #EE783F, #8B3D90, #2E59A2, #DF393F, #1EA8D9
 background-color: #FFFFFF  
 footer: Copyright Ⓒ Eric Jiang 2019 | Adapated from "Gitting Started at Hackathons" tech talk
 slidenumbers: false
-## Introduction to Git and the MonPlan Development Workflow
+## Introduction to Git
 
 ### Eric Jiang (@lorderikir)
+
+![original](assets/background.png)
+
+---
+
+# Hi, I'm **Eric Jiang** 👋 <br/><br/>
+
+- Currently Software Engineer, Digital Transformation, eSolutions.
+- I founded MonPlan 
+- I also maintain other apps like GeckoDM and MARIE.js
+- Also have worked at Localz too where I worked on the React Native Core App
 
 ![original](assets/background.png)
 
@@ -303,11 +314,16 @@ _Unfortunately we won't go into fixing merge conflicts in this talk_
 
 ## Got it? 🤷‍♂️
 
-### It's probably easier if I show you commands
-
 ### Try and Fork and some branches instead 
 
 ### Go to [https://github.com/lorderikir/git-example](https://github.com/lorderikir/git-example) for some playing around
+
+![original](assets/background.png)
+
+---
+
+
+## Let's try and solve some merge conflicts
 
 ![original](assets/background.png)
 
