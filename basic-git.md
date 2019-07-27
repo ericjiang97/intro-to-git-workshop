@@ -282,20 +282,44 @@ git push
 
 ---
 
-## Got it? `¯\_(ツ)_/¯`
+# Got it? `¯\_(ツ)_/¯`
 
-### So now let's try and fork some branches instead 
+## So now let's try and fork some branches instead 
 
-### Go to [https://github.com/lorderikir/git-example](https://github.com/lorderikir/git-example) to play around
-
+1. Go to [https://github.com](https://github.com) to create an account if you don't have one
+2. Go to [https://github.com/lorderikir/git-example](https://github.com/lorderikir/git-example) to play around
 
 
 ---
 
+## Step 1 - Create a Fork of this Repository under your GitHub Account
+
+
+![inline](https://camo.githubusercontent.com/134a4a65bac8799402bdda836a69656511cefd18/68747470733a2f2f63646e2d7374642e64707263646e2e6e65742f66696c65732f6163635f3630393938372f444c48447a4f)
+
+
+---
+## Step 2 - Edit the file in your fork by clicking the pencil icon and add your name to the list
+
+![inline](https://camo.githubusercontent.com/ae4eabdf698ebee96369c449f54e30ca785f1a73/68747470733a2f2f63646e2d7374642e64707263646e2e6e65742f66696c65732f6163635f3630393938372f6b694f545958)
+
+---
+
+## Step 3 - Edit the file and commit your changes
+
+![inline](https://camo.githubusercontent.com/99d779e5b9d35a7e3bd59ae6fa77ea4fb609d9c9/68747470733a2f2f63646e2d7374642e64707263646e2e6e65742f66696c65732f6163635f3630393938372f4c6c32457547)
+
+---
+
+
+## Step 4 - Submit a Pull Request (PR)
+
+![inline](https://camo.githubusercontent.com/05abe83f12928e50f0ee894011e3ebde02dbf367/68747470733a2f2f63646e2d7374642e64707263646e2e6e65742f66696c65732f6163635f3630393938372f737478545932)
+
+
+---
 
 ## So merge conflicts, what are they and how do we resolve them?
-
-
 
 ---
 
