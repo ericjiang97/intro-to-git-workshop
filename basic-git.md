@@ -1,20 +1,11 @@
-Theme: Business Class
+Theme: Zurich
 autoscale: true
-text: Roboto, #006cab
-text-strong: Roboto Black, #006dae
-text-emphasis: Google Sans Italic
-header: Merriweather Light, #006CAB
-header-strong: Merriweather ,#005DAE
-header-emphasis: Merriweather Black, #53585F  
-code: Fira Code Medium, #EE783F, #8B3D90, #2E59A2, #DF393F, #1EA8D9
-background-color: #FFFFFF  
-footer: Copyright Ⓒ Eric Jiang 2019 | Adapated from "Gitting Started at Hackathons" tech talk
-slidenumbers: false
+footer: Copyright Ⓒ Eric Jiang 2018 - 2019 | Adapated from "Gitting Started at Hackathons" tech talk
+
 ## Introduction to Git
 
 ### Eric Jiang (@lorderikir)
 
-![original](assets/background.png)
 
 ---
 
@@ -25,15 +16,14 @@ slidenumbers: false
 - I also maintain other apps like GeckoDM and MARIE.js
 - Also have worked at Localz too where I worked on the React Native Core App
 
-![original](assets/background.png)
 
 ---
 
-So, I love coding 👨‍💻 and I love working in teams 👪
+# So, I love writing code & also love working in teams 
 
-_But what if there was a way that I good remember how the code look liked throughout its stage, for example if something went wrong and I want to go back to a previous version?_
+_But what if there was a way that I could remember how the code look liked throughout its entire development lifecycle, for example if something went wrong and I want to go back to a previous version?_
 
-![original](assets/background.png)
+In comes [Git](https://git-scm.com/)
 
 ---
 
@@ -49,7 +39,7 @@ _But what if there was a way that I good remember how the code look liked throug
 > Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people
 > -- [Git-SCM Website](https://git-scm.com/)
 
-![original](assets/background.png)
+_Also if you want to go into Software Development at some companies, you are bound to use Git or some kind of version control like SVN/Mecurial_
 
 ---
 
@@ -57,7 +47,7 @@ _But what if there was a way that I good remember how the code look liked throug
 
 ![inline](https://tudip.com/wp-content/uploads/2017/12/GitWorkflow.png)
 
-![original](assets/background.png)
+
 
 ---
 
@@ -69,7 +59,7 @@ _But what if there was a way that I good remember how the code look liked throug
 * There is only one .git directory, in the root directory of the project.
 * The repository is stored in files alongside the project. There is no central server repository.
 
-![original](assets/background.png)
+
 
 ---
 # Some Terminology
@@ -79,7 +69,10 @@ _But what if there was a way that I good remember how the code look liked throug
 
 * A reference to some changes to a file (removals or deletitions in files, creation/moving/deletition of files)
 
-![original](assets/background.png)
+- Imagine the commit as a _save_ of the changes to the file(s)
+
+- A commit also contains the Commit Title/Name, and Commit Description
+
 
 ---
 # Some Terminology
@@ -89,7 +82,7 @@ _But what if there was a way that I good remember how the code look liked throug
 
 ![inline](https://git-scm.com/figures/18333fig0304-tn.png)
 
-![original](assets/background.png)
+
 
 ---
 
@@ -97,7 +90,7 @@ _But what if there was a way that I good remember how the code look liked throug
 
 ![inline](https://git-scm.com/figures/18333fig0201-tn.png)
 
-![original](assets/background.png)
+
 
 ---
 # Some Basic Commands
@@ -109,7 +102,7 @@ _But what if there was a way that I good remember how the code look liked throug
 | `git commit` | Creates a commit (set of changes)      |
 | `git push`   | Push changes to the hosted repo        |
 
-![original](assets/background.png)
+
 
 ---
 
@@ -121,9 +114,7 @@ Well, working with teams 👪 may be hard. There are generally two ways you can 
 * Using Forks
 
 - Open Source projects tend to use Forks, while:
-- a lot of places also uses what is known as GitFlow which uses branches!
-
-![original](assets/background.png)
+- a lot of companies internally uses what is known as GitFlow which uses branches!
 
 ---
 
@@ -136,35 +127,31 @@ Well, working with teams 👪 may be hard. There are generally two ways you can 
 
 One of the best workflows is known as _GitFlow_
 
-![original](assets/background.png)
-
 ---
 
-# GitFlow
+# In GitFlow, our Branches follow some naming conventions...
 
-![inline](https://i.imgur.com/c5L8RFE.png)
-
-* **master**: branch is the key branch, everytime for release
-* **develop**: _unstable_, most of the PRs should go here
-* **'feature/\*'**, **'fix/\***, etc.: are 'for purpose' branches, these branches are for development
+* `master`: branch is the key branch, typically for our production/public-facing version
+* `develop`: _unstable_, most of the PRs should go here
+* `staging`: this branch is occassionally but not always used, this matches our QA/Testing environment
+* `feature/\*`, `fix/\*`, etc.: are 'for purpose' branches, these branches are for development
 
 _This slide has been adapted from my [CI-CD talk](https://github.com/lorderikir/cicd-techtalk)_
 
-![original](assets/background.png)
 
 ---
 
 # So we know that development is done incrementally
 
-![original](assets/background.png)
+
 
 ---
 
 # Imagine we using Git within our practices
 
-And one of my team mates, Nicholas has found a bug within one of our buttons.
+And one of my team-mates, has found a bug within one of our buttons.
 
-![original](assets/background.png)
+
 
 ---
 
@@ -182,7 +169,7 @@ git branch fix/contact-button
 git checkout fix/contact-button
 ```
 
-![original](assets/background.png)
+
 
 ---
 # He fixes the code and stages the change in commits
@@ -195,7 +182,7 @@ git commit -m "new commit"
 git push
 ```
 
-![original](assets/background.png)
+
 
 ---
 
@@ -209,7 +196,7 @@ git commit -m "new commit"
 git push
 ```
 
-![original](assets/background.png)
+
 
 ---
 
@@ -219,21 +206,19 @@ git push
 
 ## Where we discuss his proposed changes
 
-![original](assets/background.png)
+
 
 ---
 
 ![inline](assets/pullrequest.png)
 
-![original](assets/background.png)
+
 
 ---
 
 # We then merge the Changes
 
 ![inline](assets/git/step4.png)
-
-![original](assets/background.png)
 
 ---
 
@@ -243,9 +228,7 @@ git push
 * Refactoring our legacy code
 * Upgrading frameworks to newer versions
 
-_Unfortunately we won't go into fixing merge conflicts in this talk_
 
-![original](assets/background.png)
 
 ---
 
@@ -258,7 +241,7 @@ _Unfortunately we won't go into fixing merge conflicts in this talk_
 * Some CI/CD tools only run off branches (not PRs)
 * We can set our CI/CD to deployment so that it can deploy off branches (i.e. `develop` to _dev_, `master` to _staging_ or _qat_ and `deploy` to _prod_)
 
-![original](assets/background.png)
+
 
 ---
 
@@ -270,7 +253,7 @@ _Unfortunately we won't go into fixing merge conflicts in this talk_
 * Branching and forking is basically the same,
   * when working we typically use branches over forks as we can solve merge conflicts more easily (and locally)
 
-![original](assets/background.png)
+
 
 ---
 
@@ -278,7 +261,7 @@ _Unfortunately we won't go into fixing merge conflicts in this talk_
 
 ![inline](assets/gitpushforcememe.png)
 
-![original](assets/background.png)
+
 
 ---
 
@@ -289,16 +272,40 @@ _Unfortunately we won't go into fixing merge conflicts in this talk_
   * This is because rebase always applies your changes last (assumes you are always correct)
   * When merging between branches and fixing conflicts always work with a team-mate
 
-![original](assets/background.png)
+
 
 ---
 
 ![inline](http://i.bittwiddlers.org/LD6.jpg)
 
 
-![original](assets/background.png)
 
 ---
+
+## Got it? `¯\_(ツ)_/¯`
+
+### So now let's try and fork some branches instead 
+
+### Go to [https://github.com/lorderikir/git-example](https://github.com/lorderikir/git-example) to play around
+
+
+
+---
+
+
+## So merge conflicts, what are they and how do we resolve them?
+
+
+
+---
+
+# Merge Conflicts
+- essentially, when we are merging changes to code and _Git_ sees different changes on the **same** file
+- this most likely happens when someone already committed to the branch from earlier on, and hasn't applied their changes on to the branch that we are using
+- therefore, the Git history (of our changes) 'diverges' as each commit is a different hash
+
+---
+
 # Here's one of the best and easiest ways to resolve a conflict
 
 1. We go to the target branch and pull down the latest changes
@@ -308,24 +315,6 @@ _Unfortunately we won't go into fixing merge conflicts in this talk_
 5. Merge the new branch into our current branch
 6. Merge the current branch into the target branch
 
-![original](assets/background.png)
-
----
-
-## Got it? 🤷‍♂️
-
-### Try and Fork and some branches instead 
-
-### Go to [https://github.com/lorderikir/git-example](https://github.com/lorderikir/git-example) for some playing around
-
-![original](assets/background.png)
-
----
-
-
-## Let's try and solve some merge conflicts
-
-![original](assets/background.png)
 
 ---
 
@@ -333,7 +322,7 @@ _Unfortunately we won't go into fixing merge conflicts in this talk_
 
 ![inline](https://i.imgur.com/7ou081C.png)
 
-![original](assets/background.png)
+
 
 ---
 We go to the target branch and pull down the latest changes
@@ -349,7 +338,7 @@ git checkout mergconf/feat-develop
 
 ![inline](https://i.imgur.com/jD0ioV9.png)
 
-![original](assets/background.png)
+
 
 ---
 We then 'checkout' our current working branch and create a new branch off the working branch 
@@ -365,7 +354,7 @@ git merge develop
 
 ![inline](https://i.imgur.com/s1rWJu4.png)
 
-![original](assets/background.png)
+
 
 ---
 
@@ -381,7 +370,7 @@ git merge develop
 ```
 ![inline](https://i.imgur.com/BN2poNJ.png)
 
-![original](assets/background.png)
+
 
 ---
 
@@ -389,13 +378,6 @@ Resolve Conflicts (by choosing the right pieces of code you want), VSCode makes 
 
 ![inline](https://code.visualstudio.com/assets/docs/editor/versioncontrol/merge-conflict.png)
 
-Stage and commit changes 
-```
-git add .
-git commit -m "resolved merge issues"
-```
-
-![original](assets/background.png)
 
 ---
 
@@ -403,7 +385,7 @@ Here's how the state of the branches are:
 
 ![inline](https://i.imgur.com/qDC4szs.png)
 
-![original](assets/background.png)
+
 
 ---
 
@@ -419,7 +401,7 @@ git push # push to repo
 
 ![inline](https://i.imgur.com/a8TmzRe.png)
 
-![original](assets/background.png)
+
 
 ---
 
@@ -435,16 +417,20 @@ git push # push to repo
 ![inline](https://i.imgur.com/Prsy165.png)
 
 
-![original](assets/background.png)
+
 
 ---
 
 # Our Conflicts would have been solved now! 🎆
 
-![original](assets/background.png)
+
 
 ---
 # Questions? <br/><br/> 🤔 🎤 📣
 
-![original](assets/background.png)
+---
+# Thank You!!
 
+You can follow me on my social accounts:
+- Twitter: [@lorderikir](https://twitter.com/lorderikir)
+- GitHub: [@lorderikir](https://github.com/lorderikir)
